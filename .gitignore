@@ -1,0 +1,8 @@
+/target
+
+info.md
+.idea
+
+*.swp
+*.swo
+.DS_Store
