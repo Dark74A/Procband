@@ -85,12 +85,19 @@ uses process groups to reliably terminate service process trees.
 
 ## Installation
 
+### Install with Cargo
+
+The easiest way to install Procband is through crates.io:
+
+```bash
+cargo install procband
+```
 ### Build from source
 
 Clone the repository and build the release binary:
 
 ``` bash
-git clone https://github.com/Dark74A/Procband.git
+git clone https://github.com/Dark74A/procband.git
 cd procband
 
 cargo build --release
