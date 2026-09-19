@@ -20,8 +20,7 @@ pub fn spawn_one(
     Ok(tokio::spawn(run_and_report(process, tx.clone())))
 }
 
-/// Starts all services and creates the shared application state and
-/// event channel.
+/// Starts all services and creates the shared application state and event channel.
 pub fn spawn_all(
     config: Config,
 ) -> (
